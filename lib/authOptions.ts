@@ -152,7 +152,7 @@ export const authOptions: NextAuthOptions = {
       try {
         session.user = {
           ...session.user,
-          email: dbUser.email,
+          email: dbUser.email,  
           name: dbUser.name || dbUser.email.split('@')[0],
           id: dbUser._id.toString() || "",
           // password: dbUser?.password || '',
