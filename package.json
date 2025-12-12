@@ -30,7 +30,7 @@
     "lucide-react": "^0.546.0",
     "mongoose": "^8.19.2",
     "nanoid": "^5.1.6",
-    "next": "15.5.6",
+    "next": "15.5.9",
     "next-auth": "^4.24.11",
     "openai": "^6.7.0",
     "openai-realtime-api": "^1.0.8",
